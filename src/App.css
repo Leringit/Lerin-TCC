@@ -1,0 +1,55 @@
+/* Elementos bases */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+
+:root {
+  font-family: Noto Sans;
+  font-size: 100%;
+
+  --color-background: #e0e0e0;
+  --color-background-box: #9c9ca1;
+  --color-title-nav: blue;
+  --color-box-shadow: #5f5858;
+
+}
+
+html,
+body,
+#root {
+  align-items: center;
+  justify-content: center;
+
+  background: var(--color-background);
+  border-radius: 10px;
+  height: 100vh;
+
+}
+
+.MuiButton-textPrimary:hover {
+  background-color: #05ed14a6 !important;
+}
+
+.MuiButton-textSecondary:hover {
+  background-color: #e810109e !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #e53935cc !important;
+}
+
+.test {
+  margin-top: 4rem;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #05ed14a6 !important;
+}
+
+.testee {
+  padding: .5rem;
+  resize: none
+}
